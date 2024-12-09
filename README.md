@@ -1,4 +1,4 @@
-# 473projectfinal
+# 473 Final Project
 ## Project goal
 The ultimate goal of this project was to show all we've learned on Python, which we showed through plotting weather maps, comparing forecast data to verification data, and calculating the mean absolute error of model runs, among other things.
 
