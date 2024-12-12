@@ -9,4 +9,6 @@ H = FastHerbie([run], model="ifs", product="oper", fxx=np.arange(0,252,12).tolis
 vs
 Hgfs = FastHerbie([run], model="gfs", fxx=np.arange(0,252,12).tolist(), save_dir='~/meteo473_groupwork/group2/data/')
 
+Ultimately, this code is highly flexible and can be used with any model dataset for any date/time and any paramter, as long as a few simple changes are made.
+
 
