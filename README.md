@@ -9,5 +9,3 @@ Herbie was used to fetch an ECMWF forecast dataset (run at 2024-01-13 00z) as we
 
 ### Milestone 2
 Using the same ECMWF dataset, a new parameter (300 mb winds) was obtained and an xarray was created. At the KUNV grid point, a plot of the forecast error vs the forecast hour was created to show the decreasing acccuracy of the model with time. Plots of the CONUS were also created to show the short-range (fhr 6-60), medium-range (fhr 66-144), and long-range (fhr 152-240) mean absolute error across the US, to show what regions and/or events the model had the least/most trouble forecasting. A line chart of the Root Mean Square Error was also created to show the average error across the CONUS at each forecast hour. All of this was analyzed for 00z on 2024-01-13. This same process was repeated for another parameter (2m temperature), another run (12z on 2024-01-13), and another model (the GFS). When comparing the RMSE of the ECMWF and the GFS, it was found that for this time period, the GFS had an overall higher error than the ECMWF.
-
-## test header
