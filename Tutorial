@@ -8,3 +8,5 @@ Much of this project ended up being a lot of repeated and recycled code applied 
 H = FastHerbie([run], model="ifs", product="oper", fxx=np.arange(0,252,12).tolist(), save_dir='~/meteo473_groupwork/group2/data/')
 vs
 Hgfs = FastHerbie([run], model="gfs", fxx=np.arange(0,252,12).tolist(), save_dir='~/meteo473_groupwork/group2/data/')
+
+
